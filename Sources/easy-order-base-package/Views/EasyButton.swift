@@ -9,7 +9,7 @@
 #if canImport(UIKit)
 import UIKit
 
-public class EasyButton: UIButton {
+open class EasyButton: UIButton {
 
     // Title label
     let buttonTitle:UILabel = {

@@ -9,7 +9,7 @@
 #if canImport(UIKit)
 import UIKit
 
-public class LoadOverlayView: UIView {
+open class LoadOverlayView: UIView {
 
     /// Background View with opacity 50 percent
     let backgroundView:UIView = {

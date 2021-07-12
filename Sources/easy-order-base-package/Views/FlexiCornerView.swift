@@ -12,7 +12,7 @@ import UIKit
 /**
  View that you can easily configured corner radius.
  */
-public class FlexiCornerView: UIView {
+open class FlexiCornerView: UIView {
 
     /// Selected corners to be enabled
     public var corners:UIRectCorner = [.topLeft, .topRight, .bottomRight, .bottomLeft]

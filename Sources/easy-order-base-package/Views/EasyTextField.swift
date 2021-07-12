@@ -9,7 +9,7 @@
 #if canImport(UIKit)
 import UIKit
 
-public class EasyTextField: UITextField {
+open class EasyTextField: UITextField {
 
     public let bottomLine:UIView = {
         

@@ -9,7 +9,7 @@
 #if canImport(UIKit)
 import UIKit
 
-public class NavigationTitleView: UIView {
+open class NavigationTitleView: UIView {
  
     /// Title Label
     public let titleButton:UIButton = {

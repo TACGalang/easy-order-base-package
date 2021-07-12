@@ -9,7 +9,7 @@
 #if canImport(UIKit)
 import UIKit
 
-public class EasyFormTextView: UITextView {
+open class EasyFormTextView: UITextView {
 
     // Title label
     let titleLabel:UILabel = {

@@ -9,7 +9,7 @@
 #if canImport(UIKit)
 import UIKit
 
-public class Prompt {
+open class Prompt {
     
     /**
      Simple alert controller with okay button.
